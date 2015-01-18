@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Social App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-static-top.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#"><%= username %></a></li>   
+            <li><a href='<%= var1 %>'><%= var2 %> </a></li>
+          </ul>
+      </div>
+    </nav>
+
+
+          <p align="center"><a style="width:200px" class="btn btn-lg btn-primary btn-block" href="listUsers" role="button">List Users &raquo;</a></p>
+          <p align="center"><a style="width:200px" class="btn btn-lg btn-primary btn-block" href="myMessages" role="button">My Messages &raquo;</a></p>               
+          <p align="center"><a style="width:200px" class="btn btn-lg btn-primary btn-block" href="sendMessages" role="button">Send messages &raquo;</a></p>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
